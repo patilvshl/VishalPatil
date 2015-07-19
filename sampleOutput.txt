@@ -1,0 +1,40 @@
+cd C:\Users\vshl\Desktop\traffic\first try\TrafficSignal; JAVA_HOME=E:\\Java\\jdk1.7.0_60 cmd /c "\"\"E:\\NetBeans 8.0.1\\java\\maven\\bin\\mvn.bat\" -Dexec.args=\"-classpath %classpath com.mycompany.trafficSignal.TrafficSignal\" -Dexec.executable=E:\\Java\\jdk1.7.0_60\\bin\\java.exe -Dexec.classpathScope=runtime -Dmaven.ext.class.path=\"E:\\NetBeans 8.0.1\\java\\maven-nblib\\netbeans-eventspy.jar\" -Dfile.encoding=UTF-8 org.codehaus.mojo:exec-maven-plugin:1.2.1:exec\""
+Running NetBeans Compile On Save execution. Phase execution is skipped and output directories of dependency projects (with Compile on Save turned on) will be used instead of their jar artifacts.
+Scanning for projects...
+                                                                        
+------------------------------------------------------------------------
+Building TrafficSignal 1.0-SNAPSHOT
+------------------------------------------------------------------------
+
+--- exec-maven-plugin:1.2.1:exec (default-cli) @ trafficSignal ---
+Adding Vehicles to each direction:
+0: N:= 0 S:= 0 E:= 0 W:= 0
+1: N:= 0 S:= 0 E:= 1 W:= 1
+2: N:= 0 S:= 0 E:= 2 W:= 2
+3: N:= 0 S:= 0 E:= 3 W:= 3
+4: N:= 1 S:= 1 E:= 4 W:= 4
+5: N:= 2 S:= 2 E:= 5 W:= 5
+6: N:= 3 S:= 3 E:= 5 W:= 5
+7: N:= 4 S:= 4 E:= 5 W:= 5
+8: N:= 5 S:= 5 E:= 6 W:= 6
+9: N:= 6 S:= 6 E:= 7 W:= 7
+10: N:= 6 S:= 6 E:= 8 W:= 8
+11: N:= 6 S:= 6 E:= 9 W:= 9
+12: N:= 7 S:= 7 E:= 10 W:= 10
+13: N:= 8 S:= 8 E:= 11 W:= 11
+14: N:= 9 S:= 9 E:= 11 W:= 11
+15: N:= 10 S:= 10 E:= 11 W:= 11
+16: N:= 11 S:= 11 E:= 12 W:= 12
+17: N:= 12 S:= 12 E:= 13 W:= 13
+18: N:= 12 S:= 12 E:= 14 W:= 14
+19: N:= 12 S:= 12 E:= 15 W:= 15
+20: N:= 13 S:= 13 E:= 16 W:= 16
+
+ Stopping signal at:2
+------------------------------------------------------------------------
+BUILD SUCCESS
+------------------------------------------------------------------------
+Total time: 2.671s
+Finished at: Sun Jul 19 22:31:07 IST 2015
+Final Memory: 4M/15M
+------------------------------------------------------------------------

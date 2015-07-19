@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="9" passed="9">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Command line suite" duration-ms="1161" started-at="2015-07-19T17:00:57Z" finished-at="2015-07-19T17:00:59Z">
+    <groups>
+    </groups>
+    <test name="Command line test" duration-ms="1161" started-at="2015-07-19T17:00:57Z" finished-at="2015-07-19T17:00:59Z">
+      <class name="com.mycompany.trafficSignal.SignalWorkerTest">
+        <test-method status="PASS" signature="shouldMoveVehicle()[pri:0, instance:com.mycompany.trafficSignal.SignalWorkerTest@16a2c7b]" name="shouldMoveVehicle" duration-ms="13" started-at="2015-07-19T22:30:58Z" finished-at="2015-07-19T22:30:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shouldMoveVehicle -->
+      </class> <!-- com.mycompany.trafficSignal.SignalWorkerTest -->
+      <class name="com.mycompany.trafficSignal.SignalControllerTest">
+        <test-method status="PASS" signature="shouldSimulateTheSignal()[pri:0, instance:com.mycompany.trafficSignal.SignalControllerTest@18bff68]" name="shouldSimulateTheSignal" duration-ms="59" started-at="2015-07-19T22:30:58Z" finished-at="2015-07-19T22:30:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shouldSimulateTheSignal -->
+        <test-method status="PASS" signature="shouldThrowInterruptedExceptionWhileSimulating()[pri:0, instance:com.mycompany.trafficSignal.SignalControllerTest@18bff68]" name="shouldThrowInterruptedExceptionWhileSimulating" duration-ms="5" started-at="2015-07-19T22:30:58Z" finished-at="2015-07-19T22:30:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shouldThrowInterruptedExceptionWhileSimulating -->
+      </class> <!-- com.mycompany.trafficSignal.SignalControllerTest -->
+      <class name="com.mycompany.trafficSignal.VehicleTest">
+        <test-method status="PASS" signature="shouldCreateVehicleWithId()[pri:0, instance:com.mycompany.trafficSignal.VehicleTest@1edcd24]" name="shouldCreateVehicleWithId" duration-ms="0" started-at="2015-07-19T22:30:59Z" finished-at="2015-07-19T22:30:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shouldCreateVehicleWithId -->
+      </class> <!-- com.mycompany.trafficSignal.VehicleTest -->
+      <class name="com.mycompany.trafficSignal.RoadTest">
+        <test-method status="PASS" signature="shouldMoveVehiclesOnGreenSignal()[pri:0, instance:com.mycompany.trafficSignal.RoadTest@148ab5c]" name="shouldMoveVehiclesOnGreenSignal" duration-ms="338" started-at="2015-07-19T22:30:57Z" finished-at="2015-07-19T22:30:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shouldMoveVehiclesOnGreenSignal -->
+        <test-method status="PASS" signature="shouldMoveVehiclesOnGreenSignalAfterRed()[pri:0, instance:com.mycompany.trafficSignal.RoadTest@148ab5c]" name="shouldMoveVehiclesOnGreenSignalAfterRed" duration-ms="154" started-at="2015-07-19T22:30:58Z" finished-at="2015-07-19T22:30:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shouldMoveVehiclesOnGreenSignalAfterRed -->
+        <test-method status="PASS" signature="shouldStopVehiclesOnRed()[pri:0, instance:com.mycompany.trafficSignal.RoadTest@148ab5c]" name="shouldStopVehiclesOnRed" duration-ms="55" started-at="2015-07-19T22:30:58Z" finished-at="2015-07-19T22:30:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shouldStopVehiclesOnRed -->
+      </class> <!-- com.mycompany.trafficSignal.RoadTest -->
+      <class name="com.mycompany.trafficSignal.TrafficProducerTest">
+        <test-method status="PASS" signature="shouldAddVehiclesToAllDirections()[pri:0, instance:com.mycompany.trafficSignal.TrafficProducerTest@18e5ebd]" name="shouldAddVehiclesToAllDirections" duration-ms="511" started-at="2015-07-19T22:30:58Z" finished-at="2015-07-19T22:30:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shouldAddVehiclesToAllDirections -->
+        <test-method status="PASS" signature="shouldThrowInterruptedExceptiOnAddVehicle()[pri:0, instance:com.mycompany.trafficSignal.TrafficProducerTest@18e5ebd]" name="shouldThrowInterruptedExceptiOnAddVehicle" duration-ms="11" started-at="2015-07-19T22:30:59Z" finished-at="2015-07-19T22:30:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shouldThrowInterruptedExceptiOnAddVehicle -->
+      </class> <!-- com.mycompany.trafficSignal.TrafficProducerTest -->
+    </test> <!-- Command line test -->
+  </suite> <!-- Command line suite -->
+</testng-results>
