@@ -3,7 +3,7 @@ Running NetBeans Compile On Save execution. Phase execution is skipped and outpu
 Scanning for projects...
                                                                         
 ------------------------------------------------------------------------
-Building TrafficSignal 1.0-SNAPSHOT
+Building TrafficSignal 1.0-SNAPSHOT updated
 ------------------------------------------------------------------------
 
 --- exec-maven-plugin:1.2.1:exec (default-cli) @ trafficSignal ---
